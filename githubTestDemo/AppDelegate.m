@@ -7,12 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
+@synthesize nav;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    ViewController *view = [[ViewController alloc] init];
+    nav = [[UINavigationController alloc] initWithRootViewController:view];
+    
+    self.window.rootViewController = nav;
+    self.window.backgroundColor = [UIColor whiteColor];
     return YES;
 }
 							

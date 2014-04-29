@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29F21BE8190F5E2E00D647DE /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F21BE7190F5E2E00D647DE /* WelcomeViewController.m */; };
 		CDBD304F1908B2DA00DF253F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBD304E1908B2DA00DF253F /* Foundation.framework */; };
 		CDBD30511908B2DA00DF253F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBD30501908B2DA00DF253F /* CoreGraphics.framework */; };
 		CDBD30531908B2DA00DF253F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBD30521908B2DA00DF253F /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29F21BE6190F5E2E00D647DE /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		29F21BE7190F5E2E00D647DE /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		CDBD304B1908B2DA00DF253F /* githubTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = githubTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBD304E1908B2DA00DF253F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDBD30501908B2DA00DF253F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				CDBD30601908B2DA00DF253F /* Main.storyboard */,
 				CDBD30631908B2DA00DF253F /* ViewController.h */,
 				CDBD30641908B2DA00DF253F /* ViewController.m */,
+				29F21BE6190F5E2E00D647DE /* WelcomeViewController.h */,
+				29F21BE7190F5E2E00D647DE /* WelcomeViewController.m */,
 				CDBD30661908B2DA00DF253F /* Images.xcassets */,
 				CDBD30551908B2DA00DF253F /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDBD30651908B2DA00DF253F /* ViewController.m in Sources */,
+				29F21BE8190F5E2E00D647DE /* WelcomeViewController.m in Sources */,
 				CDBD305F1908B2DA00DF253F /* AppDelegate.m in Sources */,
 				CDBD305B1908B2DA00DF253F /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				CDBD307F1908B2DA00DF253F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDBD30801908B2DA00DF253F /* Build configuration list for PBXNativeTarget "githubTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				CDBD30821908B2DA00DF253F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
